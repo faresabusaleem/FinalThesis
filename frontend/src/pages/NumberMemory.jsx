@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, BarElement, CategoryScale, LinearScale } from 'chart.js';
-import '../styles/VisualMemory.css';
 import axios from 'axios';
 
 ChartJS.register(BarElement, CategoryScale, LinearScale);
