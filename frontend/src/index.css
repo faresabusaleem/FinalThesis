@@ -1,0 +1,29 @@
+@keyframes shake {
+  0% { transform: translate(1px, 0); }
+  20% { transform: translate(-2px, 1px); }
+  40% { transform: translate(2px, -1px); }
+  60% { transform: translate(-1px, 2px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
+
+.shake {
+  animation: shake 0.3s;
+}
+
+.flash-red {
+  background-color: #ffcccc !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f5f0;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
